@@ -1,51 +1,62 @@
-section {
-  background-color: #eeeeee;
-  width: 800px;
+.layout {
+  height: 800px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50px 700px 50px;
+}
+
+header {
+  background-color: #03a9f4;
+  grid-column: 1/5;
   position: relative;
 }
 
-.full-width,
-.third div,
-.half div,
-.quarter div {
-  background-color: #dddddd;
-  text-align: center;
-  padding: 10px 0;
-}
-
-.full-width {
-  width: calc(100% - 30px);
-  margin: 15px 0 0 15px;
+header::before {
+  content: "Header";
+  color: #fff;
   position: absolute;
+  top: 15px;
+  left: 25px;
 }
 
-.third div {
-  float: left;
-  width: calc((100% - 60px) / 3);
-  margin: 15px 0 0 15px;
+section {
+  background-color: #ff5722;
+  grid-column: 1/4;
+  position: relative;
 }
 
-.half {
-  clear: both;
+section::before {
+  content: "Section";
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  left: 25px;
 }
 
-.half div {
-  float: left;
-  width: calc((100% - 45px) / 2);
-  margin: 15px 0 0 15px;
+aside {
+  background-color: #607d8b;
+  grid-column: 4/5;
+  position: relative;
 }
 
-.quarter {
-  clear: both;
+aside::before {
+  content: "Aside";
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  left: 25px;
 }
 
-.quarter div {
-  float: left;
-  width: calc((100% - 75px) / 4);
-  margin: 15px 0 0 15px;
+footer {
+  background-color: #009688;
+  grid-column: 1/5;
+  position: relative;
 }
 
-.clear {
-  clear: both;
-  margin-bottom: 15px;
+footer::before {
+  content: "Footer";
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  left: 25px;
 }
