@@ -1,0 +1,21 @@
+.parent .child .title {
+  color: #f00;
+}
+
+.parent .title {
+  color: #00f;
+}
+
+.parent p,
+.title {
+  color: #0f0;
+}
+
+section p {
+  background-color: #a52a2a;
+  padding: 10px;
+  width: fit-content;
+  max-width: 400px;
+  max-height: 20px;
+  overflow: auto;
+}

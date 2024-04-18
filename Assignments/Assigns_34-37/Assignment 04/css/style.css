@@ -1,0 +1,36 @@
+body {
+  counter-reset: product-count;
+}
+
+p {
+  background-color: #efefef;
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  position: relative;
+}
+
+p::before {
+  counter-increment: product-count;
+  content: " " counter(product-count) " ";
+  background-color: #f44336;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -40px;
+}
+
+p::after {
+  content: " ";
+  background-color: #f44336;
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -5px;
+}

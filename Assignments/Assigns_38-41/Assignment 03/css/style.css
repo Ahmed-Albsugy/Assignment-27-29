@@ -1,0 +1,75 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+section {
+  width: 550px;
+  height: 550px;
+  margin: auto;
+}
+
+.basic {
+  width: 45%;
+  background-color: #eeeeee;
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.rect {
+  background-color: #03a9f4;
+  color: #fff;
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -40%;
+}
+
+.circle {
+  background-color: #dddddd;
+  width: 200px;
+  height: 200px;
+  margin-top: 45%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.free {
+  margin-right: 8%;
+}
+
+.free::before {
+  content: "";
+  background-color: #03a9f4;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -23.5px;
+}
+
+.free::after {
+  content: "Or";
+  background-color: #03a9f4;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  right: -38px;
+}

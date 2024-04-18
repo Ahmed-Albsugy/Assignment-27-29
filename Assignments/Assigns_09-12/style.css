@@ -1,0 +1,44 @@
+.s1,
+.s2,
+.s3 {
+  display: inline-block;
+  outline: 5px #000 solid;
+  padding: 20px;
+  margin: 10px;
+}
+
+.s1 {
+  border: 5px #f00 solid;
+}
+
+.s2 {
+  border: 5px solid;
+  border-color: #00f #0f0;
+}
+
+.s3 {
+  border: 5px dashed;
+  border-color: #f00 #0f0 #00f #ffeb3b;
+}
+
+.element {
+  background-color: #eee;
+  width: 400px;
+  border-left: 5px solid;
+  padding: 10px;
+  margin: 30px;
+  outline: 10px #eee solid;
+}
+
+.element-1 {
+  border-color: #e91e63;
+}
+
+.element-2 {
+  visibility: hidden;
+  border-color: #e91e63;
+}
+
+.element-3 {
+  border-color: #009688;
+}

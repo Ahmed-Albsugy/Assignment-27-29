@@ -1,0 +1,46 @@
+div {
+  width: 650px;
+  margin: 30px auto;
+  position: relative;
+}
+
+input {
+  background-color: #f4f4f4;
+  width: 600px;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 20px;
+  caret-color: red;
+  border: none;
+  outline: none; /* remove outline when focus*/
+  position: relative;
+}
+
+.line-1 {
+  content: "";
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  height: 5px;
+  width: 630px;
+  background-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+}
+
+.line-2 {
+  content: "";
+  position: absolute;
+  bottom: 47px;
+  left: 0;
+  height: 5px;
+  width: 630px;
+  background-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+}
+.line-3 {
+  content: "";
+  position: absolute;
+  bottom: -26px;
+  left: 0;
+  height: 5px;
+  width: 630px;
+  background-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+}

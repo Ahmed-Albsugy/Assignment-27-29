@@ -1,0 +1,43 @@
+div {
+  position: relative;
+}
+
+.top::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 20px;
+  border-style: solid;
+  border-color: red transparent transparent transparent;
+}
+
+.right::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 20px;
+  border-style: solid;
+  border-color: transparent transparent transparent red;
+}
+
+.left::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 20px;
+  border-style: solid;
+  border-color: transparent red transparent transparent;
+}
+
+.bottom::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 20px;
+  border-style: solid;
+  border-color: transparent transparent red transparent;
+}

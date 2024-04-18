@@ -1,0 +1,51 @@
+section {
+  background-color: #eeeeee;
+  width: 800px;
+  position: relative;
+}
+
+.full-width,
+.third div,
+.half div,
+.quarter div {
+  background-color: #dddddd;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.full-width {
+  width: calc(100% - 30px);
+  margin: 15px 0 0 15px;
+  position: absolute;
+}
+
+.third div {
+  float: left;
+  width: calc((100% - 60px) / 3);
+  margin: 15px 0 0 15px;
+}
+
+.half {
+  clear: both;
+}
+
+.half div {
+  float: left;
+  width: calc((100% - 45px) / 2);
+  margin: 15px 0 0 15px;
+}
+
+.quarter {
+  clear: both;
+}
+
+.quarter div {
+  float: left;
+  width: calc((100% - 75px) / 4);
+  margin: 15px 0 0 15px;
+}
+
+.clear {
+  clear: both;
+  margin-bottom: 15px;
+}

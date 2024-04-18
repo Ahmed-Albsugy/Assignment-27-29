@@ -1,0 +1,35 @@
+.parent {
+  background-color: #eeeeee;
+  width: 600px;
+  height: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.parent div {
+  color: #fff;
+  padding: 66px 47px;
+}
+
+.one {
+  background-color: #ff9800;
+  align-self: flex-start;
+}
+
+.two {
+  background-color: #8bc34a;
+  align-self: flex-end;
+}
+
+.three {
+  background-color: #795548;
+  align-self: flex-start;
+}
+
+.four {
+  background-color: #673ab7;
+  order: -1;
+  align-self: flex-end;
+}

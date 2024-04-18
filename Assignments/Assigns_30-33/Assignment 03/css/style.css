@@ -1,0 +1,28 @@
+.main {
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+  list-style: none;
+}
+
+.sub {
+  background-color: #eeeeee;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.sub-1 li {
+  background-color: #fff;
+  margin-top: 5px;
+}
+
+.sub-2 li {
+  background-color: #fff;
+  margin-top: 5px;
+  list-style-type: upper-roman;
+}
+
+.sub-3 li {
+  background-color: #fff;
+  margin-top: 5px;
+}
