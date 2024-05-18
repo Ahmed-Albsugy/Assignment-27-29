@@ -49,10 +49,6 @@ ul {
     width: 1170px;
   }
 }
-button,
-input[type="submit] {
-  cursor: pointer;
-}
 /* End Global Rules */
 /* Start Header */
 header {
@@ -153,6 +149,7 @@ header .sign button {
   border-radius: 10px;
   outline: none;
   box-shadow: none;
+  cursor: pointer;
 }
 header .in {
   background-color: transparent;
@@ -194,6 +191,7 @@ header .up {
   color: #fff;
   background-color: #252432;
   border-radius: 10px;
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   .landing .text button {
@@ -574,6 +572,7 @@ svg:not(.svg-block) {
   color: var(--main-font-color);
 }
 .pricing .container .right .number i {
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .pricing .container {
@@ -679,6 +678,7 @@ svg:not(.svg-block) {
 }
 .questions .container ul li i {
   margin-left: 20px;
+  cursor: pointer;
 }
 .questions .container ul li:not(:first-child) i {
   cursor: pointer;
@@ -760,6 +760,7 @@ svg:not(.svg-block) {
   background-color: var(--main-button-color);
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
 }
 footer {
   position: relative;
@@ -857,17 +858,22 @@ footer .footer .right ul {
   max-width: 100%;
 }
 footer .footer .right ul:first-child li {
+  margin-bottom: 100px;
+}
+footer .footer .right ul:first-child li a {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: var(--main-font-color);
-  margin-bottom: 100px;
+  text-decoration: none;
 }
 
 footer .footer .right ul:first-child li:not(:last-child) {
   margin-right: 50px;
 }
-
+footer .footer .right ul li i {
+cursor: pointer;
+}
 footer .footer .right ul li:not(:last-child) i {
   margin-right: 35px;
 }
