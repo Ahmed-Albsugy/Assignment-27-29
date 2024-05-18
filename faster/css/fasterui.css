@@ -49,6 +49,10 @@ ul {
     width: 1170px;
   }
 }
+button,
+input[type="submit] {
+  cursor: pointer;
+}
 /* End Global Rules */
 /* Start Header */
 header {
