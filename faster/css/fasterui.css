@@ -325,7 +325,8 @@ svg:not(.svg-block) {
     padding: calc(var(--main-padding) / 5) 0;
   }
 }
-.work img:first-child {
+.work::before {
+  content: url(../images/check-bg.png);
   position: absolute;
   top: 50%;
   left: 50%;
