@@ -867,7 +867,11 @@ footer .footer .right ul:first-child li a {
   color: var(--main-font-color);
   text-decoration: none;
 }
-
+footer .footer .right ul li a.active,
+footer .footer .right ul li a:hover {
+  color: #252432;
+  font-weight: 700;
+}
 footer .footer .right ul:first-child li:not(:last-child) {
   margin-right: 50px;
 }
