@@ -1002,6 +1002,9 @@ header .container .menu-bar:hover + ul {
   box-shadow: 10px 25px 19px 0px #ddd;
   transform: translateZ(10px);
 }
+.platforms .sponsers a img:hover {
+  transform: perspective(100px) translateZ(20px);
+}
 /* End Platforms */
 /* Start Footer */
 footer {
